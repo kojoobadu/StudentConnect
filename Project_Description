@@ -1,0 +1,7 @@
+StudentConnect is an app which allows students on campus to create accounts using their .edu email accounts and it allows
+Students to buy and sell tickets. THe application will be developed using the android OS platform.
+Our app will be connected to a database using volley which will allow our users to login and access their information.
+Initially we plan to use the information we have learn so far to develop the architecture.
+We plan to decompose the project into several smaller modules which can be implemented independently.
+Initially, we will also develop the functional and non functional requirements of our application.
+We both have adequate experience using android studio which can be applied to the success of our application
