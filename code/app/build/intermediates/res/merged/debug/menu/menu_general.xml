@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    <item android:id="@+id/action_event" android:title="@string/action_event"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_group" android:title="@string/action_group"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_book" android:title="@string/action_book"
+        android:orderInCategory="100" />
+    <item android:id="@+id/action_account" android:title="@string/action_account"
+        android:orderInCategory="100" />
+</menu>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="group339.cyconnect" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="group339.cyconnect.activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.event.EventActivity"
+            android:label="@string/title_activity_event"
+            android:parentActivityName="group339.cyconnect.activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="group339.cyconnect.activities.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="group339.cyconnect.activities.account.AccountActivity"
+            android:label="@string/title_activity_account"
+            android:parentActivityName="group339.cyconnect.activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="group339.cyconnect.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.book.BookActivity"
+            android:label="@string/title_activity_book"
+            android:parentActivityName="group339.cyconnect.activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="group339.cyconnect.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.group.GroupActivity"
+            android:label="@string/title_activity_group"
+            android:parentActivityName="group339.cyconnect.activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="group339.cyconnect.activities.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="group339.cyconnect.activities.account.AccountNotificationsActivity"
+            android:label="@string/title_activity_account_notifications"
+            android:parentActivityName="group339.cyconnect.activities.account.AccountActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="group339.cyconnect.activities.account.AccountActivity" />
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.event.CreateEventActivity"
+            android:label="@string/title_activity_create_event"
+            android:parentActivityName="group339.cyconnect.activities.event.EventActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="group339.cyconnect.activities.event.EventActivity" />
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.group.CreateGroupActivity"
+            android:label="@string/title_activity_create__group_"
+            android:parentActivityName="group339.cyconnect.activities.group.GroupActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="group339.cyconnect.activities.group.GroupActivity" />
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.book.CreateBookActivity"
+            android:label="@string/title_activity_create_book"
+            android:parentActivityName="group339.cyconnect.activities.book.BookActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="group339.cyconnect.activities.book.BookActivity" />
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.event.MyEventsActivity"
+            android:label="@string/title_activity_my_events"
+            android:parentActivityName="group339.cyconnect.activities.event.EventActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="group339.cyconnect.activities.event.EventActivity" />
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.event.ViewEventActivity"
+            android:label="@string/title_activity_view_event"
+            android:parentActivityName="group339.cyconnect.activities.event.EventActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="group339.cyconnect.activities.event.EventActivity" />
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.event.AllEventsActivity"
+            android:label="@string/title_activity_all_events"
+            android:parentActivityName="group339.cyconnect.activities.event.EventActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="group339.cyconnect.activities.event.EventActivity" />
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.book.AllBooksActivity"
+            android:label="@string/title_activity_all_books" >
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.group.AllGroupsActivity"
+            android:label="@string/title_activity_all_groups" >
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.book.ViewBookActivity"
+            android:label="@string/title_activity_view_book" >
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.group.ViewGroupActivity"
+            android:label="@string/title_activity_view_group" >
+        </activity>
+        <activity
+            android:name="group339.cyconnect.activities.group.ChatActivity"
+            android:label="@string/title_activity_chat" >
+		</activity>
+		<activity
+            android:name="group339.cyconnect.activities.group.MyGroupsActivity"
+            android:label="@string/title_activity_my_groups" >
+        </activity>
+        <activity android:name="group339.cyconnect.activities.book.CommentActivity"
+        android:label="CommentActivity"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_title_display_username">Username</string>
+    <string name="pref_default_display_username">NO_USER</string>
+
+    <string name="pref_title_display_password">Password</string>
+    <string name="pref_default_display_password">NO_PASS</string>
+
+</resources>

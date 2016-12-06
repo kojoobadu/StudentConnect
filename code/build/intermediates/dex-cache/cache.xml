@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/chris/workspaces/CyConnect/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="9cf804432d07593262efd10baa8a9e87fb604ddc">
+        <dex dex="/Users/chris/workspaces/CyConnect/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_6c82f67bff738645168e98a5e973fda25131626e.jar" />
+    </item>
+
+</items>
